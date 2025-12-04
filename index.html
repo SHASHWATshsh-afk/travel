@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DreamWorld Travel Agency</title>
+
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #ffe8c7, #fff8e7, #ffffff);
+            color: #333;
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            background: linear-gradient(to right, #0077b6, #00b4d8, #90e0ef);
+            padding: 25px;
+            margin: 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+            border-radius: 0 0 25px 25px;
+        }
+
+        h2 {
+            color: #b23a48;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+        }
+
+        /* Packages Table */
+        table {
+            border-collapse: collapse;
+            background: rgba(255,255,255,0.6);
+            backdrop-filter: blur(8px);
+            padding: 15px;
+            border-radius: 15px;
+            width: 70%;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            margin: auto;
+        }
+
+        th {
+            background: linear-gradient(to right, #0096c7, #48cae4);
+            color: white;
+            padding: 12px;
+            font-size: 18px;
+        }
+
+        td {
+            text-align: center;
+            padding: 12px;
+            font-size: 17px;
+        }
+
+        tr:hover {
+            background: rgba(255,255,255,0.9);
+            transition: 0.3s;
+        }
+
+        /* Gallery */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 120px;
+            font-size: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 260px;
+            height: 160px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: 0.4s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+            cursor: pointer;
+        }
+
+        .btn {
+            background: linear-gradient(to right, #ff7b00, #ffb703);
+            padding: 12px 25px;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background: linear-gradient(to right, #fb8500, #ffb703);
+        }
+
+        footer {
+            margin-top: 40px;
+            background: linear-gradient(to right, #00b4d8, #48cae4);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 25px 25px 0 0;
+            font-weight: bold;
+            box-shadow: 0 -4px 15px rgba(0,0,0,0.3);
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>🌍 DreamWorld Travel Agency 🌍</h1>
+
+    <h2>About Us</h2>
+    <p>
+        Welcome to <b>DreamWorld Travel Agency</b>! We bring you the best tour packages around the world.
+        Whether you're planning a honeymoon, a family vacation, or an adventure trip — <br>
+        ~ we make your journey easy, fun, and unforgettable!
+    </p>
+
+    <center>
+        <img src="travelling.jpeg"
+             width="60%" height="600"
+             style="border-radius:20px; box-shadow:0 5px 20px rgba(0,0,0,0.4); margin-top:20px;">
+    </center>
+
+    <h2>🏖️ Our Current Tour Packages</h2>
+
+    <table>
+        <tr>
+            <th>Destination</th>
+            <th>Duration</th>
+            <th>Price (per person)</th>
+        </tr>
+        <tr>
+            <td>Himalayas</td>
+            <td>3 Days / 2 Nights</td>
+            <td>₹9,999</td>
+        </tr>
+        <tr>
+            <td>Maldives</td>
+            <td>5 Days / 4 Nights</td>
+            <td>₹15,999</td>
+        </tr>
+        <tr>
+            <td>Paris</td>
+            <td>4 Days / 3 Nights</td>
+            <td>₹39,999</td>
+        </tr>
+    </table>
+
+    <h2>📸 Gallery of Destinations</h2>
+
+    <div class="gallery">
+        <div>
+            <a href="https://en.parisinfo.com/" target="_blank">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Paris">
+            </a>
+            <br>
+            <br>
+            <br>
+            <center><b>Paris</b></center>
+        </div>
+
+        <div>
+            <a href="https://www.tourism.gov.in/" target="_blank">
+                <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="Himalayas">
+                <br>
+            <br>
+            <br>
+            </a>
+            <center><b>Himalayas</b></center>
+        </div>
+
+        <div>
+            <a href="https://visitmaldives.com/" target="_blank">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Maldives">
+                <br>
+            <br>
+            <br>
+            </a>
+            <center><b>Maldives</b></center>
+        </div>
+    </div>
+
+    <h2>📞 Contact & Booking</h2>
+    <p>
+        📍 Mumbai, India<br>
+        📞 +91 98765 43210<br>
+        📧 travel@dreamworld.com
+    </p>
+
+    <p>
+        <a class="btn" href="https://www.makemytrip.com" target="_blank">Book Now</a>
+    </p>
+
+    <footer>
+        © 2025 DreamWorld Travel Agency | All Rights Reserved
+    </footer>
+
+</body>
+</html>
